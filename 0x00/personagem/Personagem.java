@@ -2,9 +2,9 @@ abstract class Personagem {
 
     String nome;
     TipoPersonagem tipo;
-    Integer inteligencia, forca, vigor, resistencia, destreza;
+    int inteligencia, forca, vigor, resistencia, destreza;
 
-    public Personagem(String nome, TipoPersonagem tipo, Integer inteligencia, Integer forca, Integer vigor, Integer resistencia, Integer destreza) {
+    public Personagem(String nome, TipoPersonagem tipo, int inteligencia, int forca, int vigor, int resistencia, int destreza) {
         this.nome = nome;
         this.tipo = tipo;
         this.inteligencia = inteligencia;

@@ -1,5 +1,5 @@
 public class Ladrao extends Personagem{
-    public Ladrao(String nome, Integer inteligencia, Integer forca, Integer vigor, Integer resistencia, Integer destreza) throws Exception {
+    public Ladrao(String nome, int inteligencia, int forca, int vigor, int resistencia, int destreza) throws Exception {
         super(nome, TipoPersonagem.LADRAO, inteligencia, forca, vigor, resistencia, destreza);
         if(destreza < forca || destreza < inteligencia){
             throw new Exception("Atributos invalidos para LADRAO");
