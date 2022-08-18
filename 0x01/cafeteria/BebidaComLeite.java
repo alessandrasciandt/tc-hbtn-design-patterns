@@ -9,7 +9,7 @@ public class BebidaComLeite extends BebidaDecorator {
     @Override
     public List<String> obterIngredientes() {
         List<String> lista = super.obterIngredientes();
-        lista.add("Leite");
+        lista.add("leite");
         return lista;
     }
 
