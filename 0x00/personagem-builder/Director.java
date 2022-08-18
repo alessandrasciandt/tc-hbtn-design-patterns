@@ -5,8 +5,8 @@ public class Director {
         builder.setInteligencia(1);
         builder.setForca(8);
         builder.setDestreza(6);
-        builder.setVigor(8);
-        builder.setResistencia(5);
+        builder.setVigor(5);
+        builder.setResistencia(10);
         builder.build();
     }
 
