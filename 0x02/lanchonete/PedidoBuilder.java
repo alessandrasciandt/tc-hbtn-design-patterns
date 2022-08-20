@@ -10,7 +10,7 @@ public class PedidoBuilder extends PedidoAbstractBuilder{
 
     @Override
     void setLanche(TipoLanche tipo) {
-        pedido.adicionarItemDentroCaixa(new ItemPedido(TipoItemPedido.LACHE, tipo.name()));
+        pedido.adicionarItemDentroCaixa(new ItemPedido(TipoItemPedido.LANCHE, tipo.name()));
     }
 
     @Override

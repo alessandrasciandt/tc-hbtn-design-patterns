@@ -2,6 +2,6 @@ public enum TipoItemPedido {
 
     BEBIDA,
     BRINDE,
-    LACHE,
+    LANCHE,
     BATATA;
 }
